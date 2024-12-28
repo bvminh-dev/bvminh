@@ -1,0 +1,69 @@
+{
+    "sections": [
+        {
+            "id": "about",
+            "categoryId": "home",
+            "jsonPath": "/data/sections/cover.json",
+            "faIcon": "fa-solid fa-address-card"
+        },
+
+
+        {
+            "id": "blog",
+            "categoryId": "blog",
+            "jsonPath": "/data/sections/portfolio.json",
+            "faIcon": "fa-solid fa-folder-open"
+        }
+
+        
+    ],
+
+    "categories": [
+        {
+            "id": "home",
+            "faIcon": "fa-solid fa-home",
+            "locales": {
+                "en": {"title": "Home"},
+                "vi": {"title": "Trang chủ"},
+                "es": {"title": "Inicio"},
+                "fr": {"title": "Accueil"},
+                "ko": {"title": "홈페이지"}
+            }
+        },
+
+        {
+            "id": "background",
+            "faIcon": "fa-solid fa-clock",
+            "locales": {
+                "en": {"title": "History"},
+                "es": {"title": "Trayectoria"},
+                "fr": {"title": "Parcours"},
+                "ko": {"title": "경력"}
+            }
+        },
+
+        {
+            "id": "blog",
+            "faIcon": "fa-solid fa-images",
+            "locales": {
+                "en": {"title": "Blog"},
+                "vi": {"title": "Bài viết"},
+                "es": {"title": "Vitrina"},
+                "fr": {"title": "Vitrine"},
+                "ko": {"title": "쇼케이스"}
+            }
+        },
+
+        {
+            "id": "more",
+            "faIcon": "fa-solid fa-plus",
+            "locales": {
+                "en": {"title": "More"},
+                "vi": {"title": "Xem thêm"},
+                "es": {"title": "Más"},
+                "fr": {"title": "Plus"},
+                "ko": {"title": "더보기"}
+            }
+        }
+    ]
+}

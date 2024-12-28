@@ -1,0 +1,67 @@
+{
+    "version": "1.0.0",
+    "animatedCursorEnabled": true,
+    "fullScreenButtonEnabled": true,
+
+    "preloader": {
+        "enabled": true,
+        "title": "Wait me some minutes",
+        "subtitle": ""
+    },
+
+    "profile": {
+        "name": "Minh Bui",
+        "stylizedName": "<strong>Minh **Bui**</strong>",
+        "logoUrl": "images/svg/logo.svg",
+        "profilePictureUrl": "images/pictures/avatar.jpg",
+
+        "locales": {
+            "en": {"role": "Web Developer"},
+            "vi": {"role": "Lập trình viên Web"}
+        }
+    },
+
+    "status": {
+        "visible": true,
+        "available": true,
+
+        "locales": {
+            "en": {"message": "Available for freelance!"},
+            "vi": {"message": "Có thể làm việc tự do!"}
+        }
+    },
+
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "default": true,
+            "icon": "fa-solid fa-moon"
+        },
+
+        {
+            "id": "light",
+            "default": false,
+            "icon": "fa-solid fa-sun"
+        }
+    ],
+
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/en.png",
+            "default": true
+        },
+        {
+            "name": "Vietnamese",
+            "id": "vi",
+            "flagUrl": "images/flags/vn.png"
+        }
+    ],
+
+    "emailjs": {
+        "publicKey": "tzObcsmOwHvPy6Rhp",
+        "serviceId": "service_4h8g7vb",
+        "templateId": "template_seyjkzn"
+    }
+}

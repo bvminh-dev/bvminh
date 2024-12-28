@@ -1,0 +1,119 @@
+{
+    "locales": {
+        "en": {
+            "title": "Blog",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Blog**"
+        },
+        "vi": {
+            "title": "Bài viết",
+            "title_long_prefix": "Tìm kiếm",
+            "title_long": "Những **bài viết** của tôi"
+        },
+
+        "es": {
+            "title": "Portafolio",
+            "title_long_prefix": "Explora",
+            "title_long": "Mi **Portafolio**"
+        },
+
+        "fr": {
+            "title": "Portfolio",
+            "title_long_prefix": "Découvrez",
+            "title_long": "Mon **Portfolio**"
+        },
+
+        "ko": {
+            "title": "포트폴리오",
+            "title_long_prefix": "이것은 내",
+            "title_long": "**포트폴리오**입니다"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "blog",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "App", "plural": "Apps"},
+                        "es": {"singular": "App", "plural": "Apps"},
+                        "fr": {"singular": "App", "plural": "Apps"},
+                        "ko": {"singular": "앱", "plural": "앱들"}
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Web"},
+                        "es": {"singular": "Sitio web", "plural": "Web"},
+                        "fr": {"singular": "Site web", "plural": "Web"},
+                        "ko": {"singular": "웹사이트", "plural": "웹"}
+                    }
+                },
+                {
+                    "id": "utilities",
+                    "locales": {
+                        "en": {"singular": "Utility", "plural": "Utilities"},
+                        "es": {"singular": "Utilidad", "plural": "Utilidades"},
+                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"},
+                        "ko": {"singular": "유틸리티", "plural": "유틸리티들"}
+                    }
+                }
+            ],
+
+            "items": [
+                {
+                    "id": "chatgpt-question-techniques",
+                    "categoryId": "utilities",
+                    "icon": {
+                        "img": "images/pictures/project-logo-3.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        
+                    ],
+
+                    "media": {
+                        
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Question GPT",
+                            "text": "<b>Techniques</b> for asking GPT chat questions to achieve <b>the highest efficiency</b>.",
+                            "tags": ["GPT", "Prompt"]
+                        },
+                        "vi": {
+                            "title": "Kỹ thuật hỏi GPT",
+                            "text": "Những <b>kỹ thuật</b> hỏi chat GPT để đạt được <b>hiệu quả cao nhất</b>.",
+                            "tags": ["GPT", "Prompt"]
+                        },
+                        "es": {
+                            "title": "BrainPulse",
+                            "text": "Una <b>API RESTful</b> construida con <b>Node.js</b>, diseñada para el procesamiento de datos de alto rendimiento y la gestión de eventos en tiempo real.",
+                            "tags": ["API", "REST", "Backend"]
+                        },
+                        "fr": {
+                            "title": "BrainPulse",
+                            "text": "Un backend <b>API RESTful</b> construit avec <b>Node.js</b>, conçu pour le traitement de données haute performance et la gestion d'événements en temps réel.",
+                            "tags": ["API", "REST", "Backend"]
+                        },
+                        "ko": {
+                            "title": "BrainPulse",
+                            "text": "<b>Node.js</b>로 구축된 <b>RESTful API</b> 백엔드로, 고성능 데이터 처리 및 실시간 이벤트 처리용으로 설계되었습니다.",
+                            "tags": ["API", "REST", "Backend"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
